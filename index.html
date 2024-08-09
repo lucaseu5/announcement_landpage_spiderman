@@ -27,7 +27,109 @@
             <img src="./dist/images/titulo.png" class="hero__content__img" alt="">
         </div>
     </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="sinopse" class="shows__tabs__button shows__tabs__button--is-active">Sinopse</button>
+            <button data-tab-button="continuacao" class="shows__tabs__button">Segundo Filme...</button>
+        </nav>
+        <ul data-tab-id="sinopse" class="shows__list shows__list--is-active">
+            <p class="text--big">
+                Após ser atingido por uma teia radioativa, Miles Morales, um jovem negro do Brooklyn, se torna o Homem-Aranha, inspirado no legado do já falecido Peter Parker. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói por baixo de um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras versões do Homem-Aranha.
+            </p>
+            <img src="./dist/images/poster.png" alt="">
+        </ul>
 
+        <ul data-tab-id="continuacao" class="shows__list">
+            <p class="text--big">
+                Depois de se reunir com Gwen Stacy, Homem-Aranha é jogado no multiverso. Lá, o super-herói aracnídeo encontra uma numerosa equipe encarregada de proteger sua própria existência.
+            </p>
+            <img class="shows__list__image" src="./dist/images/poster-2.png" alt="">
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <img src="./dist/images/resumo.png" alt="Cena do filme">
+        <div class="image-text-section__text_container">
+            <h2 class="title">Um filme de tirar o chapeu</h2>
+            <p class="text--big">
+                Nas trilogias de super-heróis o segundo filme é o da consolidação da jornada pessoal. Cinco anos depois de Homem-Aranha no Aranhaverso (2018), Miles Morales retorna mais maduro e confiante em Através do Aranhaverso, mas é a própria realidade da rotina de vigilante - que particularmente no universo do Homem-Aranha sempre envolveu muitas concessões, lutos e sacrifícios - que chega para cobrar seu pedágio e testar se Miles tem mesmo o que é preciso para carregar o nome de Homem-Aranha.
+            </p>
+        </div>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas Frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Qual foi a data de lançamento dos filmes?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    O primeiro filme saiu no dia 10/01/2019 no brasil e o seu Sucessor teve lançamento no dia 01/06/2023
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Onde assitir os filmes?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    Hoje esta obra conta com a exibição em varios streamings como, HBO max e Amazon Prime
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    Posso deixar meus filhos assistirem estes filmes?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A classificação indicativa do filme e para maiores de 10 anos
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <ul class="footer__links">
+                <li class="footer__links__item">
+                    <div class="language-selector">
+                        <img src="./dist/images/icones/globe.svg" alt="Globo do mundo">
+                        <select>
+                            <option selected> Português</option>
+                            <option>English</option>
+                        </select>
+                    </div>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Termos e Condições de Uso</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Política de privacidade</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Proteção de Dados no Brasil</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Anúncios personalizados</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">
+                        Dispositivos compatíveis
+                    </a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="#" class="text--small">Ajuda</a>
+                </li>
+                <li class="footer__links__item">
+                    <a href="" class="text--small">Sobre o Disney+</a>
+                </li>
+            </ul>
+            <p class="text--small">
+                ® 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
+            </p>
+            <p class="text--small">
+                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP - CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                </p>
+            </p>
+        </div>
+    </footer>
     <script src="./dist/js/main.js"></script>
 </body>
 </html>
