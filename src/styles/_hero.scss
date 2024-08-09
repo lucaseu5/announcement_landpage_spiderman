@@ -6,7 +6,9 @@
     background-size: cover;
     margin-top: -105px;
 
-    
+    @media (max-width: 768px) {
+
+    }
 
     &__content {
         max-width: 600px;
@@ -15,6 +17,12 @@
         &__img {
             max-width: 100%;
             padding-right: 30%;
+
+            @media (max-width: 768px) {
+                max-width: 100%;
+                padding: 0;
+                padding-top: 180px;
+            }
         }
     }
 }
